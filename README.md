@@ -6,10 +6,10 @@
 
 **In this project we will build the Model Random Forest Classifier for classifying Purchased as 0(Not Purchased) or 1(Purchased) from different features in the dataset**.<br></br>  
 
-Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. 
-It is a tree-structured classifier, where internal nodes represents the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.<br></br>
-In a Decision tree, there are two nodes, which are the Decision Node and Leaf Node. Decision nodes are used to make any decision and have multiple branches, whereas Leaf nodes are the output of those decisions and do not contain any further branches.<br></br>
-In order to build a tree, we use the CART algorithm, which stands for Classification and Regression Tree algorithm.
+Random Forest is one of the most popular and commonly used algorithms by Data Scientists. Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It builds decision trees on different samples and takes their majority vote for classification and average in case of regression.<br></br>
+Random forest is a versatile machine learning algorithm developed by Leo Breiman and Adele Cutler. It leverages an ensemble of multiple decision trees to generate predictions or classifications. By combining the outputs of these trees, the random forest algorithm delivers a consolidated and more accurate result.<br></br>
+Its widespread popularity stems from its user-friendly nature and adaptability, enabling it to tackle both classification and regression problems effectively. The algorithm’s strength lies in its ability to handle complex datasets and mitigate overfitting, making it a valuable tool for various predictive tasks in machine learning.<br></br>
+One of the most important features of the Random Forest Algorithm is that it can handle the data set containing continuous variables, as in the case of regression, and categorical variables, as in the case of classification. It performs better for classification and regression tasks. In this tutorial, we will understand the working of random forest and implement random forest on a classification task.
 
 
 **Important- Note: Explore the dataset once before going through the code.**
